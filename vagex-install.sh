@@ -63,7 +63,7 @@ if [ "$release" == "Debian" ]; then
     echo "未选择任何发行版本，脚本退出"
     exit 1
   elif [ "$number" == "1" ];then
-    wget -N --no-check-certificate http://www.letvps.com/scripts/vagex_d7.sh && bash vagex_d7.sh
+    wget -N --no-check-certificate https://raw.githubusercontent.com/wangzhe12588/vagex/master/vagex_d7.sh && bash vagex_d7.sh
     exit 1
   else
     echo "目前该脚本只支持Debian 7.x其他系统会在以后更新"
